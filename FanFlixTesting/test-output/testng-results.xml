@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-23T18:21:13 IST" name="Suite" finished-at="2024-06-23T18:21:42 IST" duration-ms="29445">
+  <suite started-at="2024-06-23T18:57:44 IST" name="Suite" finished-at="2024-06-23T18:58:09 IST" duration-ms="24863">
     <groups>
     </groups>
-    <test started-at="2024-06-23T18:21:13 IST" name="MyStoreTC" finished-at="2024-06-23T18:21:42 IST" duration-ms="29445">
+    <test started-at="2024-06-23T18:57:44 IST" name="MyStoreTC" finished-at="2024-06-23T18:58:09 IST" duration-ms="24863">
       <class name="FanflixTests.FanflixWorkflowTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:FanflixTests.FanflixWorkflowTest@25641d39]" started-at="2024-06-23T18:21:13 IST" name="setup" finished-at="2024-06-23T18:21:18 IST" duration-ms="5513" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:FanflixTests.FanflixWorkflowTest@791f145a]" started-at="2024-06-23T18:57:44 IST" name="setup" finished-at="2024-06-23T18:57:50 IST" duration-ms="5258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPage(java.lang.String,java.lang.String)[pri:1, instance:FanflixTests.FanflixWorkflowTest@25641d39]" started-at="2024-06-23T18:21:18 IST" name="verifyLoginPage" finished-at="2024-06-23T18:21:19 IST" duration-ms="865" status="PASS">
+        <test-method signature="verifyLoginPage(java.lang.String,java.lang.String)[pri:1, instance:FanflixTests.FanflixWorkflowTest@791f145a]" started-at="2024-06-23T18:57:50 IST" name="verifyLoginPage" finished-at="2024-06-23T18:57:51 IST" duration-ms="794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method signature="UploadFile()[pri:2, instance:FanflixTests.FanflixWorkflowTest@25641d39]" started-at="2024-06-23T18:21:19 IST" name="UploadFile" finished-at="2024-06-23T18:21:34 IST" duration-ms="14547" status="PASS">
+        <test-method signature="UploadFile()[pri:2, instance:FanflixTests.FanflixWorkflowTest@791f145a]" started-at="2024-06-23T18:57:51 IST" name="UploadFile" finished-at="2024-06-23T18:58:02 IST" duration-ms="11325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method signature="UploadPost()[pri:3, instance:FanflixTests.FanflixWorkflowTest@25641d39]" started-at="2024-06-23T18:21:34 IST" name="UploadPost" finished-at="2024-06-23T18:21:41 IST" duration-ms="7382" status="PASS">
+        <test-method signature="UploadPost()[pri:3, instance:FanflixTests.FanflixWorkflowTest@791f145a]" started-at="2024-06-23T18:58:02 IST" name="UploadPost" finished-at="2024-06-23T18:58:09 IST" duration-ms="7267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadPost -->
-        <test-method is-config="true" signature="EndSession()[pri:0, instance:FanflixTests.FanflixWorkflowTest@25641d39]" started-at="2024-06-23T18:21:41 IST" name="EndSession" finished-at="2024-06-23T18:21:42 IST" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="EndSession()[pri:0, instance:FanflixTests.FanflixWorkflowTest@791f145a]" started-at="2024-06-23T18:58:09 IST" name="EndSession" finished-at="2024-06-23T18:58:09 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndSession -->
