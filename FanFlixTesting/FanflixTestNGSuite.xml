@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MyStoreTC">
+  <parameter name="browser" value="chrome"/>
+   <parameter name="url" value="https://client-auth-dev.fanfix.dev/login"/>
+   <parameter name="username" value="testqa@mailinator.com"/>
+   <parameter name="password" value="123456789"/>
+    <classes>
+      <class name="FanflixTests.FanflixWorkflowTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
